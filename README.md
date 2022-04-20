@@ -12,7 +12,7 @@ Through the four weeks of study, I can feel that the course arrangement and the 
 
 * What did you struggle with in this project?
 
-* Because I am not a fast learner, and I have too many opportunities to contact the IT industry, coupled with the language barrier, I need to spend more time digesting the daily content, and at the same time make sure to catch up with new content, if The bootcamp period could be extended to another six months which might be more suitable for my rhythm. But I'm still trying to improve my learning method to get familiar and proficient as soon as possible.
+Because I am not a fast learner, and I have too many opportunities to contact the IT industry, coupled with the language barrier, I need to spend more time digesting the daily content, and at the same time make sure to catch up with new content, if The bootcamp period could be extended to another six months which might be more suitable for my rhythm. But I'm still trying to improve my learning method to get familiar and proficient as soon as possible.
 
 
 
