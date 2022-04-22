@@ -106,6 +106,23 @@ button {
 }
 
 
+@media (max-width <= 720px) 
+
+{
+    /* Do Not Display */
+    .desktop, .logo {
+      display: none;
+    }
+
+    .mobile {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;          
+      }
+}
+
+
 /* the 2nd of section */
 
 
