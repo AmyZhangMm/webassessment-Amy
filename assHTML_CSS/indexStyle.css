@@ -1,0 +1,477 @@
+* {
+    box-sizing:border-box;
+    
+}
+
+
+
+h1 {font-size: 30px}
+h2 {font-size: 24px}
+h3 {font-size: 22px}
+h4 {font-size: 20px}
+h5 {font-size: 18px}
+
+h1, h2, h3, h4, h5 {
+    color: #4f4f4f;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+ /* - *{} setting for the whole web page - */
+
+.logo-section {  
+    display: flex;
+    height: 32px;
+    align-items: center; /* the text and logo together in the middle line of the container  (the height been set currently)*/
+
+}
+
+
+.desktop > a {
+    color: #989898;
+    text-decoration:none; 
+    margin-right: 16px;
+    font-size: 18px;
+  }  /* 元素1 > 元素2 {样式声明 } / 无下划线 */
+
+
+.mobile {
+    display: none;
+
+}
+.header-section {
+     display:flex;
+     height: 64px;
+     width: 100%;
+     align-items:center; /* the content in this container been set in the middle line of the current height */
+    justify-content:space-between;
+    padding: 16px 24px;
+}
+
+
+/* the 1st section -- Images */
+
+.images-section > img {
+    object-fit: cover;  /* the image keeps its aspect ratio and fills the given dimension.*/
+}
+
+
+.text-section {
+    line-height: 16p;
+}
+
+
+.button {
+    margin-top: 8px;
+    width: 60%;
+    background-color:#525252;
+    padding: 10px;
+}
+
+.images-shared {
+     width: 60%;
+}
+
+.images-section {
+    display: flex;
+    background-color: #989898;
+    padding: 32px 0 32px 24px;  /* through setting the background padding color instead of img-margin size to set the length of the section */
+}
+
+.text-button {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    margin:auto; /* 使整段文字内容居中显示*/
+    text-align: left; /* all element keep 
+    in left */
+    margin-left: 24px; /*non related to the img padding size*/
+    
+}
+
+
+/* the 2nd section -- Introduction (main) */
+
+
+.intro-secction {
+    display:flex;
+    margin: 32px 24px;
+    justify-content: space-between;
+    
+
+}
+
+.img-intro {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: auto;
+}
+
+.img-text {
+    display:flex;
+    flex-direction: column;  
+    margin-top: 32px;
+
+}
+
+
+/* Introduction - right imgs */
+
+
+.small-intro-images {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+   
+}
+
+.small-intro-images-1 > img {
+    object-fit: cover; 
+}    /* the image keeps its aspect ratio and fills the given dimension.*/
+
+.small-intro-images-1 {
+    display: flex;
+
+}
+
+.intro-text {
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+    margin-left:16px; 
+}
+
+
+.intro-text > a {
+    color: rgb(47, 47, 243);
+    text-decoration:none; 
+}
+
+.intro-img {
+    width: 35%;
+    margin-bottom: 32px;
+
+/* ?? how i can ajust the pic / ackground color
+ ??  background-position ?? */
+}
+
+.intro-img-mobile {
+    display: none;
+}
+
+/******** refers to the same css styling in the video section - below:
+
+
+.text {  -- correct/same
+    display: flex;
+    flex-direction: column;
+    margin: auto; 
+    padding-left: 16px;
+    width: 65%;
+}
+
+.small-video-images {
+    display: flex;
+    height: auto;
+   
+}
+
+.video-images {  - small-intro-images
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+
+}
+
+.video-content {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 32px 24px;
+
+}
+
+.small-images-bg { 
+    padding: 16px;
+    width: 35%;
+
+}
+
+
+
+/* The 3rd of section-- Courses */
+
+.courses-section {
+    background-color:#dcdcdc;
+    padding: 32px 72px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 32px;
+    column-gap: 16px;
+    justify-content: center;
+
+}
+
+.card {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    width: 30%; /* thru setting the width with % to imompletement of the 3 cards in a row */
+    height: auto;
+      
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    margin: 16px 24px 24px 16px;
+    color:#9f9b9b;
+
+}
+
+.courses-header {
+    display: flex;
+    text-align: center; /*top/bottom*/
+    justify-content: center; /*left/right*/
+    color: #01161E;
+
+
+}
+
+.courses-mobile {
+    display: none;
+}
+
+
+
+/* section 4 video section */
+
+
+
+
+.video-header { /* header here need to setted for its own*/
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.video-section {
+    display: flex;
+    flex-direction: column;
+    width: 60%; /* set the total width percentage here with the pic or video / text together */
+    height: auto;
+
+
+}
+
+.video-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px; /* space between the text here and the video/ pic above */
+    text-align: left; /* all texts move to left side / same with the video / pic above */
+    
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    margin: auto; /* keep the text right side in the middle area */
+    padding-left: 16px;
+    width: 65%;
+}
+
+.small-video-images {
+    display: flex;
+    height: auto;
+   
+}
+
+.video-images {
+    display: flex;
+    flex-direction: column;
+    margin-left:24px;
+/* i didn't set the margin - space between 2 img sections and it already shows the space */
+}
+
+.video-content {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 32px 24px;
+
+}
+
+.small-images-bg { /* img need additional class for the style setting */
+    padding: 16px; /* here need to give a padding for all imgs and not need to care abuot the bg color. so means the padding top has been ate for 16px. when you setting the total margin for the whole container, you need to take note of the padding (top) here */
+    width: 35%;
+
+}
+
+
+/* footer */
+
+footer {
+    border-style: inset;
+    border-width: 1px;
+    border-color: #dcdcdc; /*footer line */
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 24px;
+}
+
+
+/*  mobile  */
+
+
+@media screen and (max-width: 720px) {
+
+    /* header - section */
+
+    .logo-section, .desktop {
+      display: none;
+    }
+   
+   
+    .mobile {
+        display: flex;
+        height: 64px;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+/*  img - section */
+
+.images-shared {
+    display: flex;
+    width: 100%;
+    margin-bottom: 16px;
+
+}
+
+.text-button {
+     display: flex;
+     flex-direction: column;
+     margin: auto;
+     align-items: center;
+     justify-content: center;
+
+
+}
+.images-section {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    padding-top: 0;
+}
+
+
+/* intro - section */
+
+
+.intro-img, .img-intro {
+    display: none;
+}
+
+
+
+.intro-text {
+    display:flex;
+    /*text-align: left; /* text all start from left*/
+    margin: 16px 0 32px 16px;
+
+}
+
+.intro-img-mobile {
+    display:flex;
+   
+}
+
+.small-intro-images-1 {
+    display:flex;
+    flex-direction: column;
+   
+}
+
+
+
+
+.small-intro-images {
+    display: flex;
+    flex-direction: column;
+    margin: 32px; /* margin will overwrite*/ 
+}
+
+/* Courses - section */
+
+.container {
+    display: none;
+}
+
+.courses-section {
+    background-color: white;
+    margin: 32px 72px;
+}
+
+.courses-mobile {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+#title {
+    background-color: #dcdcdc;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+}
+
+
+/* video - section */
+
+.video-text, .video-images {
+    display: none;
+
+}
+
+
+.video-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;   /* can not edit the video size thru add a div ourside.
+    since the video-images is not display here. so we can edit the video size thru video-section
+    and just change the width from 60% to 100% */
+    margin: 32px 0;
+}
+
+
+/* footer */
+
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 16px 32px 16px;
+    border-style:groove;
+    border-width: 2px;
+    border-color: #e5e4e2;
+    
+}
+
+
+
+}
+
+
+
