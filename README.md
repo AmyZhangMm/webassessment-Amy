@@ -20,3 +20,9 @@ Because I am not a fast learner, and I have too many opportunities to contact th
 * What would make your experience with this assessment better?
 
 I'm still trying to figure out how to quickly memorize all the bits and pieces we've learned, and how to master them in a systematic and logical way. Or teachers can give us some learning experiences during the transition period.  My own plan is to try to find exercises to keep impressing.
+
+
+
+
+
+https://htmlpreview.github.io/?https://github.com/AmyZhangMm/webassessment-Amy/blob/main/index1.html 
