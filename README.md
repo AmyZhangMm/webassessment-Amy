@@ -31,3 +31,10 @@ I'm still trying to figure out how to quickly memorize all the bits and pieces w
 
 
 https://htmlpreview.github.io/?https://github.com/AmyZhangMm/webassessment-Amy/blob/main/index1.html 
+
+
+Or
+
+
+https://amyzhangmm.github.io/webassessment-Amy/
+
