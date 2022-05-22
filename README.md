@@ -5,35 +5,26 @@ Ass1 - HTML - CSS
 
 * What did you like about this project?
 
-Through the four weeks of study, I can feel that the course arrangement and the teacher's explanation are very practical, allowing us to quickly understand and familiarize ourselves with the scope of work of this position. I personally agree with and like the structure of short-term training + tutor assistance + internship. Able to appreciate the intentions of generation and teachers.
+I was amazed when I saw that I could make a static website by running what I learned about the Web Development Fundamentals of HTML and CSS. Let me feel the charm of programming every little code.
 
 
 
 
 * What did you struggle with in this project?
 
-Because I am not a fast learner, and I have too many opportunities to contact the IT industry, coupled with the language barrier, I need to spend more time digesting the daily content, and at the same time make sure to catch up with new content, if The bootcamp period could be extended to another six months which might be more suitable for my rhythm. But I'm still trying to improve my learning method to get familiar and proficient as soon as possible.
+It takes me a long time to make this webpage, and the responsive web design part is not ideal. For some desired designs, I can't immediately think of the corresponding codes to realise.
 
 
 
 
 * What would make your experience with this assessment better?
 
-I'm still trying to figure out how to quickly memorize all the bits and pieces we've learned, and how to master them in a systematic and logical way. Or teachers can give us some learning experiences during the transition period.  My own plan is to try to find exercises to keep impressing.
+
+I later completed the project again. The time is reduced by nearly half, and the responsive web design is also more proficient. Constant practice can improve my understanding and completion of this project.
 
 
 
 
-
-
-
-
-
-
-https://htmlpreview.github.io/?https://github.com/AmyZhangMm/webassessment-Amy/blob/main/index1.html 
-
-
-Or
 
 
 https://amyzhangmm.github.io/webassessment-Amy/
